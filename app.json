@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "React Native Expo Starter",
+    "slug": "React-Native-Expo-Starter",
+    "icon": "src/assets/images/app-icon.png",
+    "privacy": "public",
+    "ios": {
+      "bundleIdentifier": "com.reactnativeexpostarter"
+    },
+    "orientation": "portrait"
+  }
+}
