@@ -23,8 +23,7 @@ This repository will help you to start your fresh new React Native project with 
 
 > Module Resolver
 
-![YAP](<iframe src="https://giphy.com/embed/1o1uk9ls1BNrmNfVGa" width="480" height="188" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1o1uk9ls1BNrmNfVGa">via GIPHY</a></p>)
-<img  alt="Expo starter" src="https://raw.githubusercontent.com/boadude/React-Native-Expo-Starter/master/docs/module-resolver.gif" class="img-responsive">
+![Module-Resolver](https://media.giphy.com/media/1o1uk9ls1BNrmNfVGa/giphy.gif)
 
 # Table of contents
 
