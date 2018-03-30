@@ -21,8 +21,6 @@ This repository will help you to start your fresh new React Native project with 
 * Ready to work with Prettier, Eslint integrations and best practices.
 * Redux, Redux-thunk and Redux-persist for manage state.
 
-> Module Resolver
-
 ![Module-Resolver](https://media.giphy.com/media/1o1uk9ls1BNrmNfVGa/giphy.gif)
 
 # Table of contents
