@@ -38,11 +38,13 @@ class Dashboard extends Component {
   };
 
   render = () => {
-    const { isAuthenticated, isLoading } = this.props;
+    const { isAuthenticated, isLoading, Logout: DashboardLogout } = this.props;
 
     if (!isAuthenticated) {
       return <LoginScreen />;
-    } else if (isLoading) {
+    }
+
+    if (isLoading) {
       return <Loading />;
     }
 
@@ -50,7 +52,7 @@ class Dashboard extends Component {
       <Container>
         <Header style={{ borderBottomWidth: 0 }}>
           <Left>
-            <Button transparent onPress={this.props.Logout}>
+            <Button transparent onPress={DashboardLogout}>
               <Icon name="exit" />
             </Button>
           </Left>
@@ -81,4 +83,7 @@ const mapDispatchToProps = {
   Logout
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Dashboard);

@@ -41,7 +41,8 @@ export default class App extends React.Component {
   }
 
   render() {
-    if (!this.state.isReady) {
+    const { isReady } = this.state;
+    if (!isReady) {
       return <Expo.AppLoading />;
     }
 

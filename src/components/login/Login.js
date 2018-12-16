@@ -42,13 +42,17 @@ class LoginScreen extends Component {
   };
 
   handleSubmit = () => {
-    this.props
-      .FakeLogin(this.props.email, this.props.password)
-      .catch(e => console.log(`Error: ${e}`));
+    const { email, password, FakeLogin: LoginFakeLogin } = this.props;
+    LoginFakeLogin(email, password).catch(e => console.log(`Error: ${e}`));
   };
 
   render = () => {
-    const { isLoading, errorMessage } = this.props;
+    const {
+      isLoading,
+      errorMessage,
+      email,
+      ChangeInputLogin: LoginChangeInputLogin
+    } = this.props;
 
     if (isLoading) return <Loading />;
 
@@ -70,16 +74,16 @@ class LoginScreen extends Component {
                 <Input
                   style={{ fontFamily: "Questrial" }}
                   autoCapitalize="none"
-                  value={this.props.email}
+                  value={email}
                   keyboardType="email-address"
-                  onChangeText={v => this.props.ChangeInputLogin("email", v)}
+                  onChangeText={v => LoginChangeInputLogin("email", v)}
                 />
               </Item>
               <Item floatingLabel style={{ marginRight: 15 }}>
                 <Label style={Styles.defaultFont}>Password</Label>
                 <Input
                   secureTextEntry
-                  onChangeText={v => this.props.ChangeInputLogin("password", v)}
+                  onChangeText={v => LoginChangeInputLogin("password", v)}
                 />
               </Item>
 
@@ -114,4 +118,7 @@ const mapDispatchToProps = {
   ChangeInputLogin
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(LoginScreen);

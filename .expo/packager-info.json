@@ -1,9 +1,9 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 7444,
-  "expoServerNgrokUrl": "https://uk-m3b.matalmeida.interative-lab.exp.direct",
-  "packagerNgrokUrl": "https://packager.uk-m3b.matalmeida.interative-lab.exp.direct",
-  "ngrokPid": 7472,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "devToolsPort": 19002
 }
