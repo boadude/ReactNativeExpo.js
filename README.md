@@ -28,9 +28,6 @@ This repository will help you to start your fresh new React Native project with 
   - [Add-ons](#add-ons)
   - [Optional](#optionals)
 - [File Structure](#file-structure)
-- [Support](#support)
-- [Maintainers](#maintainers)
-- [License](#license)
 
 ## Installation
 
