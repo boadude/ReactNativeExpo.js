@@ -7,7 +7,7 @@ If you want to know how to update version 1 to version 2, you can read it here i
 
 ---
 
-[![GitHub version](https://badge.fury.io/gh/codingandfitness%2FReactNativeExpo.js.svg)](https://badge.fury.io/gh/codingandfitness%2FReactNativeExpo.js) [![Dependency Status](https://david-dm.org/codingandfitness/React-Native-Expo-Starter.svg)](https://david-dm.org/codingandfitness/React-Native-Expo-Starter.svg) [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![![GitHub stars](https://img.shields.io/github/stars/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js/stargazers)
+[![GitHub version](https://badge.fury.io/gh/codingandfitness%2FReactNativeExpo.js.svg)](https://badge.fury.io/gh/codingandfitness%2FReactNativeExpo.js) [![Dependency Status](https://david-dm.org/codingandfitness/React-Native-Expo-Starter.svg)](https://david-dm.org/codingandfitness/React-Native-Expo-Starter.svg) [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![![GitHub stars](https://img.shields.io/github/stars/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js/stargazers) [![GitHub license](https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js)
 
 This repository will help you to start your fresh new React Native project with Expo using the best practices to accelerate your coding.
 
