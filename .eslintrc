@@ -1,12 +1,12 @@
 {
   "extends": [
-    "airbnb",
     "prettier",
     "prettier/flowtype",
     "prettier/react",
-    "prettier/standard"
+    "prettier/standard",
+    "airbnb-base"
   ],
-  "parser": "babel-eslint",
+  "plugins": ["prettier"],
   "ecmaFeatures": {
     "classes": true
   },
@@ -19,10 +19,8 @@
     "import/extensions": [".js"]
   },
   "rules": {
-    "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", ".jsx"] }
-    ],
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": "off",
     "global-require": "off",
     "no-console": "off",
     "import/no-extraneous-dependencies": "off",
@@ -34,6 +32,11 @@
     "no-nested-ternary": "off",
     "react/no-multi-comp": "off",
     "linebreak-style": "off",
-    "react/prefer-stateless-function": "off"
+    "react/prefer-stateless-function": "off",
+    "comma-dangle": "off",
+    "operator-linebreak": "off",
+    "func-names": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off"
   }
 }

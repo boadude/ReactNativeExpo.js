@@ -1,29 +1,32 @@
-import variable from "./../variables/platform";
+// @flow
 
-export default (variables = variable) => {
+import variable from './../variables/platform';
+import { PLATFORM } from './../variables/commonColor';
+
+export default (variables /* : * */ = variable) => {
   const platformStyle = variables.platformStyle;
   const platform = variables.platform;
 
   const iconCommon = {
-    "NativeBase.Icon": {
+    'NativeBase.Icon': {
       color: variables.tabBarActiveTextColor
     }
   };
   const iconNBCommon = {
-    "NativeBase.IconNB": {
+    'NativeBase.IconNB': {
       color: variables.tabBarActiveTextColor
     }
   };
   const textCommon = {
-    "NativeBase.Text": {
+    'NativeBase.Text': {
       color: variables.tabBarActiveTextColor
     }
   };
   const footerTheme = {
-    "NativeBase.Left": {
-      "NativeBase.Button": {
-        ".transparent": {
-          backgroundColor: "transparent",
+    'NativeBase.Left': {
+      'NativeBase.Button': {
+        '.transparent': {
+          backgroundColor: 'transparent',
           borderColor: null,
           elevation: 0,
           shadowColor: null,
@@ -36,22 +39,22 @@ export default (variables = variable) => {
         },
         alignSelf: null,
         ...iconCommon,
-        ...iconNBCommon,
-        ...textCommon
+        ...iconNBCommon
+        // ...textCommon
       },
       flex: 1,
-      alignSelf: "center",
-      alignItems: "flex-start"
+      alignSelf: 'center',
+      alignItems: 'flex-start'
     },
-    "NativeBase.Body": {
+    'NativeBase.Body': {
       flex: 1,
-      alignItems: "center",
-      alignSelf: "center",
-      flexDirection: "row",
-      "NativeBase.Button": {
-        alignSelf: "center",
-        ".transparent": {
-          backgroundColor: "transparent",
+      alignItems: 'center',
+      alignSelf: 'center',
+      flexDirection: 'row',
+      'NativeBase.Button': {
+        alignSelf: 'center',
+        '.transparent': {
+          backgroundColor: 'transparent',
           borderColor: null,
           elevation: 0,
           shadowColor: null,
@@ -62,20 +65,20 @@ export default (variables = variable) => {
           ...iconNBCommon,
           ...textCommon
         },
-        ".full": {
+        '.full': {
           height: variables.footerHeight,
           paddingBottom: variables.footerPaddingBottom,
           flex: 1
         },
         ...iconCommon,
-        ...iconNBCommon,
-        ...textCommon
+        ...iconNBCommon
+        // ...textCommon
       }
     },
-    "NativeBase.Right": {
-      "NativeBase.Button": {
-        ".transparent": {
-          backgroundColor: "transparent",
+    'NativeBase.Right': {
+      'NativeBase.Button': {
+        '.transparent': {
+          backgroundColor: 'transparent',
           borderColor: null,
           elevation: 0,
           shadowColor: null,
@@ -88,23 +91,23 @@ export default (variables = variable) => {
         },
         alignSelf: null,
         ...iconCommon,
-        ...iconNBCommon,
-        ...textCommon
+        ...iconNBCommon
+        // ...textCommon
       },
       flex: 1,
-      alignSelf: "center",
-      alignItems: "flex-end"
+      alignSelf: 'center',
+      alignItems: 'flex-end'
     },
     backgroundColor: variables.footerDefaultBg,
-    flexDirection: "row",
-    justifyContent: "center",
+    flexDirection: 'row',
+    justifyContent: 'center',
     borderTopWidth:
-      platform === "ios" && platformStyle !== "material"
+      platform === PLATFORM.IOS && platformStyle !== PLATFORM.MATERIAL
         ? variables.borderWidth
         : undefined,
     borderColor:
-      platform === "ios" && platformStyle !== "material"
-        ? "#cbcbcb"
+      platform === PLATFORM.IOS && platformStyle !== PLATFORM.MATERIAL
+        ? '#cbcbcb'
         : undefined,
     height: variables.footerHeight,
     paddingBottom: variables.footerPaddingBottom,

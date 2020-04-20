@@ -1,13 +1,13 @@
 {
+  "name": "React Native Expo Starter",
+  "displayName": "ReactNativeExpoStarter",
   "expo": {
-    "sdkVersion": "31.0.0",
     "name": "React Native Expo Starter",
     "slug": "React-Native-Expo-Starter",
     "icon": "src/assets/images/app-icon.png",
-    "privacy": "public",
-    "ios": {
-      "bundleIdentifier": "com.reactnativeexpostarter"
-    },
-    "orientation": "portrait"
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"]
   }
 }

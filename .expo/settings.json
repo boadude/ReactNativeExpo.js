@@ -2,8 +2,7 @@
   "hostType": "lan",
   "lanType": "ip",
   "dev": true,
-  "strict": false,
   "minify": false,
-  "urlType": "exp",
-  "urlRandomness": "uk-m3b"
+  "urlRandomness": "qe-af6",
+  "https": false
 }
