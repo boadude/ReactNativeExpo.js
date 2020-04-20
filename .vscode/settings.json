@@ -1,13 +1,10 @@
 {
   "editor.formatOnSave": true,
-  "javascript.format.enable": false,
-  "prettier.eslintIntegration": true,
   "path-intellisense.mappings": {
     "@app": "${workspaceRoot}/src/app",
     "@assets": "${workspaceRoot}/src/assets",
     "@common": "${workspaceRoot}/src/common",
     "@components": "${workspaceRoot}/src/components",
     "@constants": "${workspaceRoot}/src/constants"
-  },
-  "typescript.quickSuggestionsForPaths": false
+  }
 }

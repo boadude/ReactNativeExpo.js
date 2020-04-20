@@ -1,49 +1,51 @@
-import React from "react";
-import * as Expo from "expo";
-import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/es/integration/react";
-import { StyleProvider } from "native-base";
-import { StatusBar, Platform } from "react-native";
+import * as React from 'react';
+import { AppLoading } from 'expo';
+import * as Font from 'expo-font';
+import { Ionicons } from '@expo/vector-icons';
 
-import getTheme from "@assets/native-base-theme/components";
-import theme from "@assets/native-base-theme/variables/commonColor";
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/es/integration/react';
+import { StyleProvider } from 'native-base';
+import { StatusBar, Platform } from 'react-native';
 
-import configureStore from "@app/store";
-import Loading from "@components/loading/Loading";
-import Dashboard from "@components/dashboard/Dashboard";
+import getTheme from '@assets/native-base-theme/components';
+import theme from '@assets/native-base-theme/variables/commonColor';
+
+import configureStore from '@app/store';
+import Loading from '@components/loading/Loading';
+import Dashboard from '@components/dashboard/Dashboard';
 
 const { persistor, store } = configureStore();
 
-if (Platform.OS === "android") StatusBar.setHidden(true);
+if (Platform.OS === 'android') StatusBar.setHidden(true);
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      isReady: false
+      isReady: false,
     };
   }
 
-  componentWillMount() {
-    this.loadFonts();
+  async componentDidMount() {
+    await this.loadFonts();
   }
 
   async loadFonts() {
-    await Expo.Font.loadAsync({
-      Roboto: require("native-base/Fonts/Roboto.ttf"),
-      Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf"),
-      Ionicons: require("@expo/vector-icons/fonts/Ionicons.ttf"),
-      Questrial: require("@assets/fonts/Questrial-Regular.ttf")
+    await Font.loadAsync({
+      Roboto: require('native-base/Fonts/Roboto.ttf'),
+      Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
+      Questrial: require('@assets/fonts/Questrial.ttf'),
+      ...Ionicons.font,
     });
 
     this.setState({ isReady: true });
   }
 
   render() {
-    const { isReady } = this.state;
-    if (!isReady) {
-      return <Expo.AppLoading />;
+    if (!this.state.isReady) {
+      return <AppLoading></AppLoading>;
     }
 
     return (
