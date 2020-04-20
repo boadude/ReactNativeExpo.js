@@ -5,6 +5,8 @@
 With the new releases from React Native and Expo, I need to update the project for continuous working. Version 1 is not working anymore and is replaced by version 2.
 If you want to know how to update version 1 to version 2, you can read it here in a post:
 
+[Updating ReactNativeExpo.js v1 to v2](https://dev.to/codingandfitness/updating-reactnativeexpo-js-v1-to-v2-40nc)
+
 ---
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/codingandfitness/ReactNativeExpo.js) ![David](https://img.shields.io/david/dev/codingandfitness/ReactNativeExpo.js) [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![GitHub license](https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js) ![GitHub last commit](https://img.shields.io/github/last-commit/codingandfitness/ReactNativeExpo.js) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/codingandfitness/ReactNativeExpo.js) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/codingandfitness/ReactNativeExpo.js)
