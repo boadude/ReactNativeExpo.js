@@ -1,158 +1,158 @@
-<p align="center">
-  <a href="https://github.com/boadude/React-Native-Expo-Starter">
-    <img  alt="React Native Expo Starter" src="https://raw.githubusercontent.com/boadude/React-Native-Expo-Starter/master/docs/react-native-expo-logo.png" class="img-responsive">
-  </a>
-</p>
+# ReactNativeExpo.js
+
+---
+
+# Breaking Changes in v2:
+
+With the new releases from React Native and Expo, I need to update the project for continuous working. Version 1 is not working anymore and is replaced by version 2.
+If you want to know how to update version 1 to version 2, you can read it here in a post:
 
 ---
 
 [![GitHub version](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter.svg)](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter)
+
 [![Dependency Status](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)
+
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/boadude/react-native-expo-starter)
 
-This repository will help you to start your fresh new React Native project with Expo using the best practices to accelerate you coding.
+This repository will help you to start your fresh new React Native project with Expo using the best practices to accelerate your coding.
 
-* Ready to build with Expo.
-* NativeBase integration. Best UI Kit for React Native.
-* Domain-Driven file structure.
-* Best configurations for VSCode.
-* Module Resolver for fixing Relative Paths.
-* Best Linting configurations and complements.
-* Ready to work with Prettier, Eslint integrations and best practices.
-* Redux, Redux-thunk and Redux-persist for manage state.
+- Ready to build with Expo.
+- NativeBase integration. Best UI Kit for React Native.
+- Domain-Driven file structure.
+- Best configurations for VSCode.
+- Module Resolver for fixing Relative Paths.
+- Best Linting settings and complements.
+- Ready to work with Prettier, Eslint integrations, and best practices.
+- Redux, Redux-thunk, and Redux-persist for manage state.
 
-![Module-Resolver](https://media.giphy.com/media/1o1uk9ls1BNrmNfVGa/giphy.gif)
+## Table of contents
 
-# Table of contents
+- [Installation](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#instalation)
+- [Configuration](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#configuration)
+  - [Visual Studio Code](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#visual-studio-code)
+  - [Add-ons](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#add-ons)
+  - [Optional](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#optionals)
+- [File Structure](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#file-structure)
+- [Support](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#support)
+- [Maintainers](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#maintainers)
+- [License](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#license)
 
-* [Instalation](#instalation)
-* [Configuration](#configuration)
-  * [Visual Studio Code](#visual-studio-code)
-  * [Add-ons](#add-ons)
-  * [Optionals](#optionals)
-* [File Structure](#file-structure)
-* [Support](#support)
-* [Maintainers](#maintainers)
-* [License](#license)
+## Installation
 
-# Instalation
+Clone or download the repository and install the dependencies
 
-> Clone or download the repository and install the dependencies
+    # Clone the repository
+    git clone --depth 1 <https://github.com/boadude/React-Native-Expo-Starter.git>
 
-```bash
-# Clone the repository
-git clone --depth 1 https://github.com/boadude/React-Native-Expo-Starter.git
+    # Go to React-Native-Expo-Starter directory
+    cd React-Native-Expo-Starter
 
-# Go to React-Native-Expo-Starter directory
-cd React-Native-Expo-Starter
+    # Install dependencies
+    npm install
 
-# Install dependecies
-npm install
+    # Start the project with Expo
+    npm start
 
-# Start the project with Expo
-npm start
-```
+Now, open Expo app on your Android or iPhone phone and scan the QR Code or go to the exp url. If you want, you can start a device simulator, follow the instructions in your console.
 
-Now, open Expo app on your Android or iPhone phone and scan the QR Code or go to the exp url. If you want you can start a device simulator, just follow the instructions in your console.
+## Configuration
 
-<img  alt="Expo starter" src="https://raw.githubusercontent.com/boadude/React-Native-Expo-Starter/master/docs/expo-console.png" class="img-responsive">
+To ensure our work, we use Visual Studio Code and a few add-ons that will make our job much cleaner and professional.
 
-# Configuration
+### Visual Studio Code
 
-To ensure our work, we use [Visual Studio Code](https://code.visualstudio.com/) and a few addons that will make our work much cleaner and professional.
+Just go to Visual Studio Code webpage and download. Follow the installation instruction and that its.
 
-## Visual Studio Code
+### Add-ons
 
-Just go to [Visual Studio Code](https://code.visualstudio.com/) webpage and download. Follow the installation instruction and that its.
+To install the add-ons necessary to work faster and cleaner, we must go to the extension icon on the left panel and search all the add-on and installed.
 
-## Add-ons
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Automatically close tags.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spell-checker that works well with camelCase code.
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates ESLint into VSCode, to check-in coding time the mistakes.
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): For autocompletion filenames.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Best code formatter ever.
 
-To install the add-ons necessary to work faster and cleaner we must go to the extension icon on the left panel and search all the add-on and installed.
+### Optional
 
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) : Automatically close tags.
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) : Spell checker that works well with camelCase code.
-* [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) : Integrates ESLint into VSCode, to check in coding time the mistakes.
-* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) : For autocompletation filenames.
-* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) : Best code formater ever.
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Icons for folders and files.
+- [NPM](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): For validations of installed modules.
 
-## Optionals
+## File Structure
 
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) : Icons for folders and files.
-* [NPM](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script) : For validations of installed modules.
+The repository uses the [Domain-Driven File Structure](https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126).
 
-# File Structure
+    react-native-expo-starter/
+     ├──.expo/                         * configuration for expo
+     ├──.vscode/                       * configuration for vscode ide
+     │   └──settings.json              * configurations for vscode and path intellisense
+     ├──docs/                          * images for the repository (you can delete this folder)
+     ├──src/                           * source files
+     │   │
+     │   ├──app/                       * app configurations
+     │   │   ├──reducers.js            * configurations for the reducers
+     │   │   └──store.js               * configurations for the store
+     │   │
+     │   ├──assets/                    * static assets
+     │   │   ├──fonts/                 * customs fonts
+     │   │   ├──images/                * images
+     │   │   └──native-base-theme/     * nativebase theme for custom configurations
+     │   │
+     │   ├──common/                    * common components
+     │   │
+     │   ├──components/                * components source
+     │   │   ├──dashboard/             * dashboard component
+     │   │   ├──loading/               * loading component
+     │   │   └──login/                 * login component
+     │   │      ├──Login.js            * login container
+     │   │      ├──LoginActions.js     * login actions
+     │   │      ├──LoginReducers.js    * login reducers
+     │   │      └──LoginStyles.js      * login styles
+     │   │
+     │   └──constants/                 * constants and customs
+     │       ├──constants.js           * global constants
+     │       └──errors.js              * custom errors messages
+     │
+     ├──.editorconfig                  * configuration for vscode
+     ├──.eslintrc                      * configuration for eslint
+     ├──.flowconfig                    * configuration for flow
+     ├──babel.config.js                * configuration for module-resolver and babel
+     ├──App.js                         * initial configuration for start the project
+     ├──app.json                       * configuration por expo
+     ├──index.js                       * expo starter
+     ├──jsconfig.json                  * configuration for compiler
+     └──package.json                   * what npm uses to manage its dependencies
 
-The repository use the [Domain-Driven File Structure](https://medium.com/@hassan.djirdeh/domain-driven-react-redux-a474ecf7d126).
+## Troubleshooting
 
-```
-react-native-expo-starter/
- ├──.expo/                         * configuration for expo
- ├──.vscode/                       * configuration for vscode ide
- │   └──settings.json              * configurations for vscode and path intellisense
- ├──docs/                          * images for the repository (you can delete this folder)
- ├──src/                           * source files
- │   │
- │   ├──app/                       * app configurations
- │   │   ├──reducers.js            * configurations for the reducers
- │   │   └──store.js               * configurations for the store
- │   │
- │   ├──assets/                    * static assets
- │   │   ├──fonts/                 * customs fonts
- │   │   ├──images/                * images
- │   │   └──native-base-theme/     * nativebase theme for custom configurations
- │   │
- │   ├──common/                    * common components
- │   │
- │   ├──components/                * components source
- │   │   ├──dashboard/             * dashboard component
- │   │   ├──loading/               * loading component
- │   │   └──login/                 * login component
- │   │      ├──Login.js            * login container
- │   │      ├──LoginActions.js     * login actions
- │   │      ├──LoginReducers.js    * login reducers
- │   │      └──LoginStyles.js      * login styles
- │   │
- │   └──constants/                 * constants and customs
- │       ├──constants.js           * global constants
- │       └──errors.js              * custom errors messages
- │
- │
- ├──.babelrc                       * configuration for module-resolver and babel
- ├──.editorconfig                  * configuration for vscode
- ├──.eslintrc                      * configuration for eslint
- ├──.flowconfig                    * configuration for flow
- ├──App.js                         * initial configuration for start the project
- ├──app.json                       * configuration por expo
- ├──jsconfig.json                  * configuration for compiler
- └──package.json                   * what npm uses to manage its dependencies
-```
+### Running iOS React Native
 
-# Support
+If you want to open the app on React Native, you can do it running:
 
-> Contact me anytime if you need help
+    npm run ios
 
-* [Twitter: @boadude](https://twitter.com/boadude)
+Must be aware, if you are using Mac must install CocoaPods and run the installation process in the folder '/ios'
 
-# License
+    sudo gem install cocoapods
+    pod install
 
-The MIT License (MIT)
+### Native-base LTS
 
-Copyright (c) 2018 Miguel Meza, CIMADent
+The project uses Native-base for developing UI. The latest version to date has a problem with a Font that uses and can't found in the dependency '@expo/vector-icons'.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    /Users/boamacbookpro/Projects/reactNativeStarter/node_modules/native-base/dist/src/basic/IconNB.js
+    Module not found: Can't resolve '@expo/vector-icons/Fontisto' in '/Users/boamacbookpro/Projects/reactNativeStarter/node_modules/native-base/dist/src/basic'
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+For the moment, the only way to fix this is by installing version 2.13.8.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    npm i -S native-base@2.13.8
+
+### Update Native-base
+
+If you want to update Native-base to the newest version, you must follow the next steps:
+
+    # Extract the 'native-base-theme' in the root of the project
+    node node_modules/native-base/ejectTheme.js
+
+    # Replace 'src/assets/native-base-theme'for the newly copy 'native-base-theme' in the root folder
