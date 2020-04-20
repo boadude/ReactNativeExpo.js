@@ -1,7 +1,5 @@
 # ReactNativeExpo.js
 
----
-
 # Breaking Changes in v2:
 
 With the new releases from React Native and Expo, I need to update the project for continuous working. Version 1 is not working anymore and is replaced by version 2.
@@ -9,11 +7,7 @@ If you want to know how to update version 1 to version 2, you can read it here i
 
 ---
 
-[![GitHub version](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter.svg)](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter)
-
-[![Dependency Status](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)
-
-[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/boadude/react-native-expo-starter)
+[![GitHub version](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter.svg)](https://badge.fury.io/gh/boadude%2FReact-Native-Expo-Starter)[![Dependency Status](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)](https://david-dm.org/boadude/React-Native-Expo-Starter.svg)[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/boadude/react-native-expo-starter)
 
 This repository will help you to start your fresh new React Native project with Expo using the best practices to accelerate your coding.
 
@@ -28,15 +22,15 @@ This repository will help you to start your fresh new React Native project with 
 
 ## Table of contents
 
-- [Installation](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#instalation)
-- [Configuration](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#configuration)
-  - [Visual Studio Code](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#visual-studio-code)
-  - [Add-ons](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#add-ons)
-  - [Optional](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#optionals)
-- [File Structure](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#file-structure)
-- [Support](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#support)
-- [Maintainers](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#maintainers)
-- [License](notion://www.notion.so/boadude/ReactNativeExpo-js-c574b945a9e74a8faa244edd00fa9c39#license)
+- [Installation](#instalation)
+- [Configuration](#configuration)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Add-ons](#add-ons)
+  - [Optional](#optionals)
+- [File Structure](#file-structure)
+- [Support](#support)
+- [Maintainers](#maintainers)
+- [License](#license)
 
 ## Installation
 
