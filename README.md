@@ -5,7 +5,10 @@
 
 <p align="center">
     <a href="#"><img src="https://img.shields.io/github/v/release/codingandfitness/ReactNativeExpo.js" alt="GitHub release"></a>
-    [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![GitHub license](https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js) ![GitHub last commit](https://img.shields.io/github/last-commit/codingandfitness/ReactNativeExpo.js) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/codingandfitness/ReactNativeExpo.js)
+    <a href="https://stackshare.io/codingandfitness/reactnativeexpo-js"><img src="https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg" alt="Stack Share"></a>
+    <a href="#"><img src="https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js" alt="Stack Share"></a>
+    <a href="#"><img src="https://img.shields.io/github/last-commit/codingandfitness/ReactNativeExpo.js" alt="GitHub last commit"></a>
+    <a href="#"><img src="https://img.shields.io/github/languages/code-size/codingandfitness/ReactNativeExpo.js" alt="GitHub code size in bytes"></a>
 </p>
 
 ---
