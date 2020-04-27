@@ -1,6 +1,10 @@
 <p align="center">
-    <img src="https://codingandfitness.s3.amazonaws.com/images/reactnativeexpo.png"><br>
+    <img src="https://codingandfitness.s3.amazonaws.com/images/reactnativeexpo-v2.png"><br>
     An React Native Starter Kit with Expo + NativeBase + Best configuration for VSCode IDE.
+</p>
+
+<p align="center">
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/codingandfitness/ReactNativeExpo.js) [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![GitHub license](https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js) ![GitHub last commit](https://img.shields.io/github/last-commit/codingandfitness/ReactNativeExpo.js) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/codingandfitness/ReactNativeExpo.js)
 </p>
 
 ---
@@ -13,8 +17,6 @@ If you want to know how to update version 1 to version 2, you can read it here i
 [Updating ReactNativeExpo.js v1 to v2](https://dev.to/codingandfitness/updating-reactnativeexpo-js-v1-to-v2-40nc)
 
 ---
-
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/codingandfitness/ReactNativeExpo.js) [![Stack Share](https://img.shields.io/badge/StackShare-ReactNativeExpo.js-blue.svg)](https://stackshare.io/codingandfitness/reactnativeexpo-js) [![GitHub license](https://img.shields.io/github/license/codingandfitness/ReactNativeExpo.js)](https://github.com/codingandfitness/ReactNativeExpo.js) ![GitHub last commit](https://img.shields.io/github/last-commit/codingandfitness/ReactNativeExpo.js) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/codingandfitness/ReactNativeExpo.js)
 
 <a href="https://www.buymeacoffee.com/ur4EkB5" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-blue.png" alt="Buy Me A Coffee" style="height: 25px !important;width: 108px !important;" ></a>
 
